@@ -11,3 +11,4 @@ class Torrent(scrapy.Item):
     seeders = scrapy.Field()
     leechers = scrapy.Field()
     uploader = scrapy.Field()
+    magnet = scrapy.Field()
